@@ -21,4 +21,16 @@ public class UserController {
 	public String about(){
 		return "about.html";
 	}
+	
+	@GetMapping("/contact")
+	public String contact(){
+		return "contact.html";
+	}
+	
+	@GetMapping("/pricing")
+	public String pricing(){
+		return "pricing.html";
+	}
+	
+	
 }
